@@ -1,0 +1,143 @@
+/* ------ GENERAL TAGS ------ */
+h1,
+h2,
+h3{
+    font-family: Playfair Display;
+    text-align: left;
+    letter-spacing: 0em;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+h3{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+}
+p{
+    font-family: Montserrat;
+    letter-spacing: 0em;
+    text-align: left;
+}
+footer{
+    display: block;
+    width: fit-content;
+    margin: 20% auto 0%;
+}
+/* ---- END GENERAL TAGS ----- */
+/* ------ INTRO ------ */
+#intro h1{
+    font-size: 1.5rem;
+}
+#intro-p1{
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 15px;
+}
+#intro-props{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10% auto;
+}
+.intro-props_box img{
+    display: block;
+    position: absolute;
+}
+.intro-props_box p{
+    font-size: 0.7rem;
+    position: relative;
+    left: 30%;
+    top: -20%;
+    margin: 4%;
+}
+#box1{
+    color: #F2994A;
+}
+#box1 img{
+    filter: hue-rotate(30deg);
+
+}
+#box1-p1{
+    color: #8a8a8a;
+}
+#img1{
+    width: 95%;
+    margin: 2.5%;
+}
+#dots{
+    width: 5%;
+    position: absolute;
+}
+/* ---- END INTRO ----- */
+/* ------ INGREDIENTS ------ */
+#ingre p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+#ingre .ingre-text{
+    margin: 0% auto;
+    width: 85%;
+    left: 10%;
+}
+.ingre-text span{
+    font-style: oblique;
+}
+.check{
+    position: absolute;
+}
+/* ---- END INGREDIENTS ----- */
+/* ------ INSTRUCTIONS ------ */
+#instruc p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+#instruc aside{
+    position: absolute;
+    padding: 0.5rem 1rem;
+    background-color: #F2994A;
+    color: #ffffff;
+    border-radius: 20%;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#instruc p{
+    display: block;
+    width: 80%;
+    margin-left: 20%;
+    left: 15%;
+}
+/* ---- END INSTRUCTIONS ----- */
+/* ------ SOURCE ------ */
+#source{
+    color: #808080;
+}
+/* ---- END SOURCE ----- */
+
+
+

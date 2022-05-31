@@ -1,0 +1,69 @@
+@media(min-width: 768px){
+    body{
+        width: 70%;
+        margin: 0% auto;
+    }
+    #intro-art h1,
+    #intro-art p{
+        width: 65%;
+    }
+    #intro-p1{
+        margin-bottom: 2%;
+    }
+    #dots{
+        width: 2%;
+        left: 19%;
+        top: 14%;
+    }
+    #intro-props{
+        grid-template-columns: 1fr;
+        position: absolute;
+        right: 12%;
+        width: 20%;
+    }
+    .intro-props_box p{
+        left: 15%;
+    }
+    #ingre{
+        width: 70%;
+    }
+    #instruc p{
+        margin-left: 10%;
+        width: 70%;
+    }
+    #source{
+        margin: 10% 0%;
+    }
+}
+@media(min-width: 1440px){
+    #intro h1{
+        font-size: 2.5rem;
+    }
+    #intro p{
+        font-size: 1.3rem;
+    }
+    #dots{
+        top: 5%;
+    }
+    #intro-props p{
+        font-size: 1.5rem;
+    }
+    #ingre h2,
+    #instruc h2{
+        font-size: 2rem;
+    }
+    #ingre h3{
+        font-size: 1.8rem;
+    }
+    #ingre p{
+        font-size: 1.5rem;
+    }
+    #instruc aside{
+        font-size: 3rem;
+        padding: 1.8%;
+    }
+    #instruc p{
+        font-size: 1.6rem;
+        margin-bottom: 10%;
+    }
+}
