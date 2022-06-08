@@ -13,7 +13,7 @@
     #dots{
         width: 2%;
         left: 19%;
-        top: 6.5%;
+        top: 6%;
     }
     #intro-props{
         grid-template-columns: 1fr;
@@ -65,5 +65,16 @@
     #instruc p{
         font-size: 1.6rem;
         margin-bottom: 10%;
+    }
+}
+@media(min-width: 1440px){
+    #dots{
+        top: 4%;
+    }
+}
+@media(min-width: 1440px){
+    #dots{
+        width: 1%;
+        top: 2%;
     }
 }
